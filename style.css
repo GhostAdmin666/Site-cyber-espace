@@ -1,0 +1,176 @@
+.container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Marianne Regular",sans-serif;
+  color: #004247;
+  font-size: 14px;
+}
+
+
+
+
+
+body {
+  font-family: "Marianne Regular",sans-serif;
+  color: #12294d;
+  font-size: 14px;
+}
+
+.form-container {
+  width: 100%; /* Largeur de la page */
+  height: 100%; /* Hauteur totale de la page */
+  display: flex; /* Utilisation de Flexbox pour centrer */
+  justify-content: center; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
+}
+
+/* Ajustement des styles pour l'input et le bouton */
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 450px;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0px;
+  color: #1969d0;
+  
+}
+
+/* Centrage du titre */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #8ca0b2;
+}
+
+
+
+
+
+
+
+body {
+  font-family: "Marianne Regular",sans-serif;
+  color: #12294d;
+  font-size: 14px;
+}
+
+.region-header .block-system-branding-block .site-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.region-header .block-system-branding-block .marianne {
+  margin-right: 1.15rem;
+  width: 89px;
+  height: 80px;
+}
+
+.region-header .block-views-exposed-filter-blockresultats-de-recherche-page-1 {
+  width: 100%;
+  background-color: rgb(0, 66, 227,0.9);
+  height: calc(100vh - 120px);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu--main {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 40px;
+  box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  position: relative;
+}
+.nav-item {
+  color: #83818c;
+  font-family: arial, sans-serif;
+  padding: 20px;
+  margin: 0 6px;
+  position: relative;
+}
+
+
+.nav-item:before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  background-color: #dfe2ea;
+  height: 5px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  left: 0;
+  transition: .3s;
+}
+
+.nav-item:not(.is-active):hover:before {
+  bottom: 0;
+}
+.nav-item:not(.is-active):hover {
+  color: #333;
+}
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  transition: .4s;
+  border-radius: 8px 8px 0 0;
+}
+
+.block-views-exposed-filter-blockresultats-de-recherche-page-1 {
+  nav-right: auto;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design_53876-100689.jpg);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Ajout du positionnement relatif pour ancrer l'erreur */
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 160px;
+  margin-left: 490px;
+    position: absolute; /* Le message d'erreur ne prendra pas d'espace */
+    top: 80px; /* Ajuste la position sous l'input */
+    display: none; /* Caché par défaut */
+}

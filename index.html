@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+
+</head>
+
+<header>
+    <nav>
+
+        <div class="container branding-bar">
+            <div id="block-open-theme-branding" class="block block-system block-system-branding-block">
+
+
+
+                <a href="/" rel="home" class="site-logo" title="Retour à la page d'accueil">
+                    <img class="marianne" src="https://cyber.gouv.fr/themes/open_theme/logo_marianne.svg" alt="">
+                    <img class="anssi" src="https://cyber.gouv.fr/themes/open_theme/logo.svg"
+                        alt="French National Cyber Security Agency (ANSSI)">
+                </a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<body>
+    
+
+        <script type="text/javascript">
+            function checkPassword() {
+                var password = document.getElementById("password").value;
+                // Définit ton mot de passe ici
+                var correctPassword = "a";
+                var errorMessage = document.getElementById("error-message");
+                if (password === correctPassword) {
+                    // Redirige vers la page protégée
+                    window.location.href = "index2.html";
+                } else {
+                    setTimeout(function() {
+                        errorMessage.style.display = "block"; 
+                    }, 100);
+                    return false; // Empêche la soumission du formulaire
+                }
+            }
+        </script>
+
+        <h2>Entrer le mot de passe pour accéder à cette page</h2>
+        <input type="password" id="password" placeholder="Mot de passe"</input>
+        <div id="error-message" class="error-message">Mot de passe incorrect</div>
+        <button onclick="checkPassword()">Entrer</button>
+    
+
+    
+
+</body>
+
+
+    
+
+    
+</html>
